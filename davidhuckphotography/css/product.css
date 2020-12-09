@@ -1,0 +1,14 @@
+#productWidth{
+    width: 500px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+
+    body{
+        background-color: red;
+    }
+}
